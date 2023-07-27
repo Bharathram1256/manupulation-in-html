@@ -6,12 +6,12 @@ html,body{
     background-color: lightblue;
 }
 .parent{
-    height: 30%;
-    width: 30%;
-    background-color: lightgray;
-    border: 1px solid black;
+    height: 40%;
+    width: 40%;
+    /* background-color: rgb(213, 213, 183); */
+    border-radius: 20px;
     position: relative;
-    top: 100px;
+    top: 200px;
     left: 300px;
     /* only  use this when you want to change the position of 
     any html element relative to its original position  */
@@ -75,4 +75,19 @@ html,body{
     opacity: 0.8;
     bottom: 0;
     left: 0;
+}
+
+
+.box{
+    height: 40%;
+    width: 40%;
+    background-color:rgb(240, 185, 185) ;
+    border-radius: 20px;
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 7px 8px 24px -9px black;
+}
+
+.box:hover{
+    background-color: lightskyblue;
+    transform: scale(1.1);
 }
